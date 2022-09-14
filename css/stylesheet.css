@@ -16,8 +16,8 @@ body{padding: 0;margin: 0;font-family: 'Poppins', sans-serif;font-weight: 300;}
 .nav-link{margin-right: 12px;font-weight: bold;}
 .fixednav{width: 100%;background-color: rgb(255, 253, 251);}
 .btn_callus{padding:6px 12px 6px 14px; background-color:rgb(236, 93 , 36);border: 2px solid rgb(236, 93 , 36);border-radius: 80px; color: rgb(254, 253, 251);}
-.dropdown-item{background-color: rgb(242, 244, 247);}
-.dropdown-item a:hover{background-color:rgb(236,93,36) ;}
+.dropdown-menu a{background-color: rgb(242, 244, 247);}
+.dropdown-menu a:hover{background-color:rgb(236,93,36);color: #d1d5db;}
 /*-------------carousel-----------------------------------------------*/
 .btn_Join_with_us{padding:6px 12px 6px 14px; background-color:rgb(236, 93 , 36);border: 2px solid rgb(236, 93 , 36);border-radius: 80px; color: rgb(254, 253, 251);}
 .carousel-caption{top: 30%;left: 25%;color: rgb(251, 247, 247);width: 50%;}
@@ -49,6 +49,7 @@ body{padding: 0;margin: 0;font-family: 'Poppins', sans-serif;font-weight: 300;}
     .testimonial4_slide img {height: 100%;}
     .testimonial4_slide p{font-size: 16px;}
     .blog_part{margin-bottom: 8px;}
+    
     
   }
 /*--------------box card--------------------------------------------*/
@@ -246,4 +247,21 @@ footer p { font-size:18px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 .social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
 .social_footer_ul li i {  width:20px; height:20px; text-align:center;}
 
-/*-----------------------------------------------------------------------*/
+/*-----------------------backimage------------------------------------------------*/
+.backimage{background-image:url(../images/newslider_backimage.jpg)  ;height: 500px ;background-size: cover;}
+.backimage_text{top: 50%;left: 50%;display: inline-block;margin-top:200px ;color: rgb(244, 247, 249);}
+
+@media screen and (max-width: 767px) {
+  .backimage{background-position: center;}
+  .our_mission{font-size: 12px;}
+  .over_view_box{margin-top: 10px;
+}
+}
+/*------------------------About us & overview----------------------------*/
+.Aboutus{margin-top: 100px;}
+.Aboutus p{font-size: 14px;line-height: 28px;}
+.overview{margin-top: 100px;}
+.over_view{margin-top: 40px;}
+.over_view h3{color:rgb(236, 93 , 36);margin-top: 15px;margin-bottom: 15px;}
+.about_us_image{margin-top: 80px;}
+.our_mission{font-size: 15px;line-height: 27px;}
