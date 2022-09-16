@@ -61,7 +61,7 @@ body{padding: 0;margin: 0;font-family: 'Poppins', sans-serif;font-weight: 300;}
 .body_img_text{margin-top: 80px;}
 .body_text{color: rgb(12, 12, 12);}
 .body_1stword{color: rgb(236, 93 , 36);font-size: 22px;font-weight: 600;}
-.about_us{padding:6px 12px 6px 14px; background-color:rgb(236, 93 , 36);border: 2px solid rgb(236, 93 , 36);border-radius: 80px; color: rgb(254, 253, 251);margin-top: 4px;}
+.about_us{padding:6px 12px 6px 14px; background-color:rgb(236, 93 , 36);border: 2px solid rgb(236, 93 , 36);border-radius: 80px; color: rgb(254, 253, 251);margin-top: 10px;}
 .img_body{margin-top: 5px;}
 /*-------------------why choose us---------------------------------------------------*/
 .why_choose_us{margin-top: 120px;}
@@ -203,7 +203,7 @@ right: 7%;top: 50%;left: auto;}
   color: #f7f9fc;
   background-color:rgb(250, 249, 249);
   background-clip: padding-box;
-  border: 1px solid rgb(200, 196, 196);
+  border: 1px solid rgb(169, 165, 165);
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -249,13 +249,13 @@ footer p { font-size:18px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 
 /*-----------------------backimage------------------------------------------------*/
 .backimage{background-image:url(../images/newslider_backimage.jpg)  ;height: 500px ;background-size: cover;}
-.backimage_text{top: 50%;left: 50%;display: inline-block;margin-top:200px ;color: rgb(244, 247, 249);}
+.backimage_text{top: 50%;left: 50%;display: inline-block;margin-top:200px ;color: rgb(238, 123, 77);}
 
 @media screen and (max-width: 767px) {
   .backimage{background-position: center;}
   .our_mission{font-size: 12px;}
-  .over_view_box{margin-top: 10px;
-}
+  .over_view_box{margin-top: 10px;}
+  .b_o_d{background-position: center;}
 }
 /*------------------------About us & overview----------------------------*/
 .Aboutus{margin-top: 100px;}
@@ -265,3 +265,15 @@ footer p { font-size:18px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 .over_view h3{color:rgb(236, 93 , 36);margin-top: 15px;margin-bottom: 15px;}
 .about_us_image{margin-top: 80px;}
 .our_mission{font-size: 15px;line-height: 27px;}
+/*----------------------directors-----------------------------------------------*/
+.b_o_d{background-image:url(../images/BOD.jpg)  ;height: 500px ;background-size: cover;}
+.b_o_d_text{top: 50%;left: 50%;display: inline-block;margin-top:200px ;color:  rgb(236, 93 , 36);font-weight: 700;}
+.e_director{margin-top: 80px;}
+.b_o_d_bodypart{color:rgb(236, 93 , 36);}
+.h2_bodypart{font-size: 40px;}
+/*------------------------contact------------------------------------------------------*/
+.contact{margin-top: 100px;}
+.contact p {line-height: 28px;}
+.contact_info{list-style: none; margin-top: 20px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.inquiry{font-size: 20px;text-decoration: underline;}
+.g_inquiry{color:rgb(236, 93 , 36);}
